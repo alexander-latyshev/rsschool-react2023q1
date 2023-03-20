@@ -1,0 +1,25 @@
+.error {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  .error__container {
+    display: flex;
+    flex-direction: column;
+    h1 {
+      margin: 0;
+      padding: 0;
+    }
+    button {
+      width: 180px;
+      height: 40px;
+      &:hover {
+        cursor: pointer;
+      }
+      a {
+        color: black;
+      }
+    }
+  }
+}
